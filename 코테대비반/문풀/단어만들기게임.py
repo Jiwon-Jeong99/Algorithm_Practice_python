@@ -18,12 +18,18 @@ for i in range(len(word)):
         card1.pop(0) #기존 문자묶음에서 삭제
         continue
     
-    elif word[i] == card2[0]:
-
+    if word[i] == card2[0]:
+        new_word.append(card2[0])
+        card2.pop(0)
+        continue
 
 if new_word == word:
-    print("#1", 0)
+    print("#1",0)
 else : 
+    print("#1",1)
+
+print("#2",len(card1))
+print("#3",len(card2))
 
 
 
