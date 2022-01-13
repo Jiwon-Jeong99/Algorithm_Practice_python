@@ -13,7 +13,8 @@ for i in range(int(len(n))-1):
     print("result = n[i] :",result,n[i])
     continue
 
-  if int(n[i]) == 0 or int(n[i]) == 1 or result == 0:
+  if int(n[i]) <= 1 or result <= 1: 
+      #1하고 같이 있을때는 더하는게 더 큼
     result += int(n[i])
     print("덧셈 :",result,"+=",i,int(n[i]))
   else:
