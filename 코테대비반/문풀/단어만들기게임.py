@@ -10,8 +10,6 @@ new_word=[]
 
 #전체 단어 돌리면서 맞는 카드 가져오기
 for i in range(len(word)):
-    print(word[i])
-
     #단어의 위치별 문자와 card1 묶음을 비교
     if word[i] == card1[0]:
         new_word.append(card1[0]) #새로운 단어리스트에 삽입
