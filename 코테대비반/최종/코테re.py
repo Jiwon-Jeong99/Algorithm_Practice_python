@@ -40,3 +40,5 @@ print("#1 %d" % perfect)
 print("#2 %d" % left)
 print("#3 %d" % num)
 print("#4 %d" % trash)
+ 
+#뒤에 문자열이 있으면 프로그램 실행
