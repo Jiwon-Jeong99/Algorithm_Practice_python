@@ -1,7 +1,7 @@
 import sys
-a,b = bool(map(int,sys.stdin.readline().split()))
+a,b = map(int,sys.stdin.readline().split())
 
 if a == 1 and b == 1:
-    print(True)
+    print(bool(a))
 else : 
     print(False)
