@@ -3,6 +3,7 @@ import sys
 n = int(sys.stdin.readline())
 a = list(map(int, sys.stdin.readline().split()))
 
+print(n,a)
 count = []
 for i in range(24):
     count.append(0)
