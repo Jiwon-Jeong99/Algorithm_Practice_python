@@ -4,7 +4,7 @@ n = int(sys.stdin.readline())
 agree =[]
 for i in range(n):
     age, name = sys.stdin.readline().split()
-    agree.append([age,name])
+    agree.append([int(age),name])
 
 # [age,name]에서 age만 비교
 agree.sort(key = lambda x : x[0])
