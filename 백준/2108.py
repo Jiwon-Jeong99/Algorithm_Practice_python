@@ -16,3 +16,8 @@ a = round(sum(num_list) / n)
 b = num_list[(n-1)/2]
 c = count_list[1]
 d = max(num_list) - min(num_list)
+
+print(a)
+print(b)
+print(c)
+print(d)
