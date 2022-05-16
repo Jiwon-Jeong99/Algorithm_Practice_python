@@ -13,3 +13,4 @@
 - 대소문자는 구별
 - 예약어는 변수명으로 사용 x (ex. let, class, return, function)
 */
+// 3,5번
