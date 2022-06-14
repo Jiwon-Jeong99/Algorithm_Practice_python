@@ -1,4 +1,2 @@
-import sys
-n = int(sys.stdin.readline())
-plan = sys.stdin.readline().split()
-
+for i in range(4):
+    print(i)
