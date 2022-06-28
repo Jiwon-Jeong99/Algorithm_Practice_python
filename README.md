@@ -10,3 +10,4 @@
 | Date |   Judge   | No. | category | rating |
 | :---: | :-----: | :------: | :------: | :------: |
 | 6/14 | boj | 10845 | 구현| silver4 |
+| 6/28 | boj | 16916 | 문자열, kmp| silver1 |
