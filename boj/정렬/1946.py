@@ -12,7 +12,9 @@ for _ in range(t):
     arr.sort(key = lambda x:x[0])
 
     num = 0
+    # 할 수 있는 최대값 - 파이썬
     meet = float('inf')
+    # 서류1등의 면접 점수랑 비교 + (6,1)(7,3)일 경우 서류7등 탈락시키기
     for i in arr:
         if i[1] < meet:
             num += 1
