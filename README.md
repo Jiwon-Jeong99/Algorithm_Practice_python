@@ -19,3 +19,5 @@ week2
 | 7/6 | boj | 11497 | 그리디, 정렬| silver1 |
 | 7/7 | boj | 1946 | 그리디, 정렬| silver1 |
 | 7/7 | boj | 1931 | 그리디, 정렬| silver1 |
+week3
+| 7/12 | boj | 2504 | 스택, 구현| silver1 |
