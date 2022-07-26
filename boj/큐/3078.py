@@ -8,6 +8,20 @@ name_len = deque()
 for _ in range(n):
     name_len.append(sys.stdin.readline())
 
-print(name_len)
+# 비교하는 큐 
+compare = deque()
+# 친한 친구 쌍 숫자
+cnt = 0
+if len(name_len) != 0:
+    while name_len:
+        compare.append(name_len.popleft())
+    
+        count = compare.count(compare[0])
+        cnt += count - 1
+else:
+    
+
+
+
 
 
