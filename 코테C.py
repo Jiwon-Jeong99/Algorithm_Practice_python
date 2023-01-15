@@ -1,0 +1,1 @@
+dp(n,m) = max( dp(n-1, k-1) +  w[xn][yk] ) for k  1 to m+1
