@@ -36,10 +36,10 @@ def bfs(x,y):
                 continue
             # 해당 노드를 처음 방문하는 경우에만 기록
             if graph[nx][ny] == 1:
-                visited[nx][ny] = 1
-                graph[nx][ny] = graph[x][y] + 1
-                q.append((nx,ny))
-                cnt += 1
+                if visited[nx][ny] == 0: #visited 0,1은 지들끼리 돌때 따로
+                    graph[nx][ny] = graph[x][y] + 1
+                    q.append((nx,ny))
+                    cnt += 1
     if cnt != 0:
         answer.append(cnt)
 
