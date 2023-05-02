@@ -8,7 +8,9 @@ import sys
 #         return [1,0]
 #     else:
 #         return [sum(i) for i in zip(*[solution([i[:h] for i in arr[:h]])]),
-#                             solution]
+#                             solution([i[h:] for i in arr[:j]]),
+#                             solution([i[:h] for i in arr[h:]]),
+#                             solution([i[h:] for i in arr[h:]])]
 def solution(arr):
     answer = [0, 0]
 
