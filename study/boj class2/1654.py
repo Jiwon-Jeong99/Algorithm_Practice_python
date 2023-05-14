@@ -42,3 +42,25 @@ while start <= end: #적절한 랜선의 길이를 찾는 알고리즘
     else:
         end = mid - 1
 print(end)
+
+# import sys
+
+# k, n = map(int, sys.stdin.readline().split())
+# arr = []
+
+# for i in range(k):
+#     arr.append(int(input()))
+
+# start = 1
+# end = max(arr)
+
+# while (start <= end):
+#     mid = (start + end) // 2
+#     cnt = 0
+#     for i in range(k):
+#         cnt += arr[i] // mid
+#     if cnt >= n:
+#         start = mid + 1
+#     else:
+#         end = mid - 1
+# print(end)
