@@ -10,6 +10,10 @@ import java.util.StringTokenizer;
  * 
  * @author 정지원
  * 
+1. 방문배열 초기좌표 true
+2. 델타배열 for문
+3. 맵 사이즈를 벗어나면 continue
+4. 움직이면서 방문하지 않은 좌표이면 dfs
  *
  */
 
