@@ -1,5 +1,15 @@
 package boj;
-
+/**
+1. 큐를 만들어서
+2. 처음 x,y좌표 저장
+3. 시작좌표 방문 true
+4. 큐가 비어있지 않을 때
+5. queue 꺼내기
+6. 상하좌우 반복
+7. 좌표를 벗어났다면 다음 좌표 체크
+8. 배추가 있고, 체크하지 않은 좌쵸이면 
+9. 좌표 저장하고 방문체크
+*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
