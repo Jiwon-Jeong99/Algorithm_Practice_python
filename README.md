@@ -6,3 +6,4 @@
 |   BOJ  | 17478 | [재귀함수가뭔가요](https://www.acmicpc.net/problem/17478) | [풀이](https://github.com/smarfy99/Algorithm_Practice/blob/main/Algo/BOJ/BOJ_17478_%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EA%B0%80%EB%AD%94%EA%B0%80%EC%9A%94.java)|
 |   SWEA | 2805 | [농작물수확하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) | [풀이](https://github.com/smarfy99/Algorithm_Practice/blob/main/Algo/SWEA/SWEA_2805_%EB%86%8D%EC%9E%91%EB%AC%BC%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0.java)|
 |   SWEA | 1210 | [Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) | [풀이](https://github.com/smarfy99/Algorithm_Practice/blob/main/Algo/SWEA/SWEA_1210_Ladder1.java)|
+|   BOJ| 2493 | [탑](https://www.acmicpc.net/problem/2493h) | [풀이](https://github.com/smarfy99/Algorithm_Practice/blob/main/Algo/BOJ/BOJ_2493_%E1%84%90%E1%85%A1%E1%86%B8.java)|
