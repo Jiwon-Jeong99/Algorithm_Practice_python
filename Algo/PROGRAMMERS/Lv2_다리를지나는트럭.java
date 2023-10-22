@@ -46,6 +46,6 @@ class Solution {
             }
         }
         //마지막 트럭에서 다리 길이만큼 지나가야 하기 떄문에
-        return answer;
+        return time + bridge_length;
     }
 }
