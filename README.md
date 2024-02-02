@@ -1,4 +1,3 @@
-# Algorithm_Practice 오답노트
 
 |   Judge   | No. | Name | 풀이 |
 | :-----: | :------: | :------: | :------: | 
